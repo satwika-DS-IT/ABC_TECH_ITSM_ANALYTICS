@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local datasets - do not publish client data
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Local environment variables
+.env
+.env.*
+
+# IDE settings
+.vscode/
